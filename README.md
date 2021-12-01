@@ -1,5 +1,5 @@
 # Car_Detection
-Image processing University Project 12/2017 (German University in Cairo) :
+12/2017
 
 Python and matlab versions of a script for vehicle detection on an offline traffic video file 
 (The offline video is not owned by the developer)
