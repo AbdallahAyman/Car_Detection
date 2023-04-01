@@ -1,7 +1,7 @@
 %foreground detection training
 foregroundDetector = vision.ForegroundDetector('NumGaussians', 5, ...
     'NumTrainingFrames', 50);
-videoReader = vision.VideoFileReader('C:\Users\bedo__000\Desktop\GUC\Image processing\BMY\LB2.webm');
+videoReader = vision.VideoFileReader('/../LB2.webm');
 for i = 1:150
     frame = step(videoReader); % read the next video frame
     foreground = step(foregroundDetector, frame);
